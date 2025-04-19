@@ -1,0 +1,302 @@
+#ankoleLogo{
+    width: 50%;
+    height: 50%;
+}
+body{
+    overflow: hidden;
+}
+.ankoleLogo{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    z-index: 1;
+}
+.eventsContainer{
+    display: flex;
+    gap: 0;
+}
+#events-image{
+    width: 600px;
+    height: 900px;
+    filter: brightness(40%);
+}
+#eventsImage{
+width: 90%;
+filter: brightness(70%);
+}.eventsText{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+#reservationsButton:hover{
+background-color: white;
+color: black;
+}
+
+.eventsText{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin-left: 80px;
+}
+#eventsPicture{
+    width: 650px;
+    height: 900px;
+    margin-left: -75px;
+    filter: brightness(20%);
+    }
+    .socialHandles{
+        display: flex;
+        position: absolute;
+        gap: 10px;
+        left: 93%;
+        top: 5%;
+    }
+    #instagramIcon{
+        border-radius: 50%;
+        background-color: #141313;
+        border: solid 2px gray;
+        padding: 10px;
+    }
+    #pavilionText{
+        color: grey;
+    }
+    #whiteText{
+        color: white;
+    }
+    #facebookIcon{
+        border-radius: 50%;
+        background-color: #141313;
+        border: solid 2px gray;
+        padding: 13px;
+        font-size: 10px;
+        margin-top: -2px;
+    }
+    .navigationBar{
+        position: absolute;
+        top: 80%;
+       left: 28%;
+        background-color: rgb(37, 36, 36);
+        padding: 20px;
+        border-radius: 50px;
+       display: flex;
+       gap: 5%;
+       width: 40%;
+       align-items: center;
+       color: white;
+    }
+.dropup-content{
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        padding: 20px;
+        z-index: 1;
+       display: none;
+        background-color: white;
+        border-radius: 20px;
+        bottom: 50px;
+        color: black;
+    }
+    h1{
+        color: white;
+    }
+.dropup:hover .dropup-content{
+        display: block;
+    }
+    #text:hover{
+        color: #A9A9A9;
+    }
+    #text{
+        color: white;
+        
+    }
+    .whatsappIconEvents{
+        position: absolute;
+        top: 90%;
+        left: 95%;
+        background-color: #141313;
+        border: solid 2px grey;
+        border-radius: 50%;
+        padding: 15px;
+    }
+    #whatsappIcon{
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 820px){
+        .dropup-content{
+            background-color: #141313;
+            color: white;
+            margin-left: -80px;
+        }
+        .socialHandles{
+            display: grid;
+            gap: 3%;
+            left: 85%;
+            position: fixed absolute;
+        }
+        .ankoleLogo{
+            margin-top: -60px;
+            margin-left: -50px;
+            width: 100%;
+        }
+        #reservationsButton{
+            margin-left: -3px;
+            width: 90%;
+            height: 1px;
+           align-items: center;
+            margin-top: 5px;
+        }
+        #text{
+            display: none;
+        }
+        .eventsContainer{
+            display: grid;
+            gap: 0%;
+        }
+        body{
+            overflow: scroll;
+        }
+        #eventsImage{
+            width: 100%;
+            margin-top: -5px;
+            margin-left: -9px;
+        }
+        #eventsPicture{
+            width: 120%;
+            margin-top: -5px;
+        }
+        #accraText{
+            margin-left: 5px;
+        }
+        h1{
+            color: white;
+        }
+        #nairobiText{
+            position: absolute;
+            top: 140%;
+            margin-left: 1px;
+        }
+        #zanzibarText{
+            position: absolute;
+            top: 250%;
+            margin-left: 1px;
+        }
+        #events-image{
+            width: 102%;
+            margin-top: -5px;
+            margin-left: -9px;
+        }
+        .whatsappIconEvents{
+            margin-left: -70px;
+        }
+        .navigationBar{
+            height: 2%;
+        }
+        #reservationsButton{
+            margin-left: -3px;
+            width: 90%;
+            height: 1px;
+           align-items: center;
+            margin-top: 5px;
+        }
+    }
+    @media only screen and (max-width: 1020px) and (min-width: 481px){
+        .dropup-content{
+            background-color: #141313;
+            color: white;
+            margin-left: -80px;
+        }
+        .socialHandles{
+            display: grid;
+            gap: 3%;
+            left: 85%;
+            position: fixed absolute;
+        }
+        .ankoleLogo{
+            margin-top: -60px;
+           left: 30%;
+            width: 100%;
+        }
+        #reservationsButton{
+            margin-left: -3px;
+            width: 90%;
+            height: 1px;
+           align-items: center;
+            margin-top: 5px;
+        }
+        .eventsContainer{
+            display: grid;
+            gap: 0%;
+        }
+        body{
+            overflow: scroll;
+            margin: 0%;
+        }
+        #eventsImage{
+            width: 100%;
+            margin-top: -5px;
+            margin-left: -9px;
+            height: 90vh;
+        }
+        #eventsPicture{
+            width: 109%;
+            margin-top: -5px;
+        }
+        #accraText{
+            margin-left: 250px;
+            margin-top: 170px;
+        }
+        h1{
+            color: white;
+        }
+        #nairobiText{
+            position: absolute;
+            top: 200%;
+            margin-left: 180px;
+            z-index: 1;
+        }
+        #text{
+            display: block;
+        }
+        #zanzibarText{
+            position: absolute;
+            top: 120%;
+            left: 30%;
+            z-index: 1;
+        }
+        #events-image{
+            width: 102%;
+            margin-top: -5px;
+            margin-left: -9px;
+        }
+        .whatsappIconEvents{
+            margin-left: -70px;
+        }
+        .navigationBar{
+            height: 2%;
+            width: 90%;
+            left: 0%;
+            top: 90%;
+        }
+        #reservationsButton{
+            margin-left: -3px;
+            width: 90%;
+            height: 1px;
+           align-items: center;
+            margin-top: 5px;
+        }
+    }

@@ -1,0 +1,295 @@
+.navigationBar{
+    position: fixed;
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+    border-radius: 50px;
+   display: flex;
+   gap: 5%;
+   width: 35%;
+   align-items: center;
+   color: white;
+   top: 80%;
+   left: 5%;
+}
+a{
+    color: white;
+}
+#ankole-logo{
+    position: fixed;
+    width: 10%;
+    top: 5%;
+}
+#text:hover{
+color: grey;
+}
+body{
+background-repeat: no-repeat;
+background-size: cover;
+}
+.dropup-content{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    z-index: 1;
+   display: none;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    color: black;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+.live-events-section{
+    display: flex;
+    color: white;
+}
+.leftsideMenu{
+    display: grid;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+#reservationsButton:hover{
+background-color: white;
+color: black;
+}
+.leftLiveSection::-webkit-scrollbar{
+    display: none;
+}
+.menuItems{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.leftLiveSection{
+    margin-left: 900px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin-top: 150px;
+}
+#tukatikeText{
+    position: fixed;
+    top: 50%;
+    font-size:35px;
+}
+#kitisuru{
+    font-size: 70px;
+    color: orangered;
+}
+.lives{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#orangeText{
+    color: orangered;
+}
+#mushroomsImage:hover{
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    transform: scale(1.1);
+    border: none;
+}
+  #mugunaImage:hover{
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    transform: scale(1.1);
+    border: none;
+}
+#fadhileeImage:hover{
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
+    transform: scale(1.1);
+    border: none;  
+}
+#fadhileeImage{
+    border: solid 9px lightpink;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+#liveText{
+    margin-top: 70px;
+}
+#mushroomsImage{
+    border: solid 9px darkblue;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+#mugunaImage{
+    border: solid 9px orangered;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+@media only screen and (max-width: 480px){
+ 
+    #fadhileeImage{
+        width: 100%;
+       border: solid 5px lightpink;
+    }
+    #mushroomsImage{
+        width: 80%;
+        border: solid 5px blue;
+    }
+    .navigationBar{
+        margin-top: 0px;
+        margin-left: 70px;
+        position: absolute fixed;
+        width: 40%;
+    }
+    #text{
+        display: none;
+    }
+    body{
+        overflow: scroll;
+    }
+    .live-events-section{
+   flex-direction: column;     
+   color: white;
+    }
+    #tukatikeText{
+       margin-top: 220px;
+        position: relative;
+        font-size: 30px;
+    }
+    .leftsideMenu{
+        display: grid;
+        position: relative;
+        width: 50%;
+        height: 100vh;
+    }
+    .leftLiveSection{
+        margin-left: 0px;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        margin-top: 550px;
+        
+    }
+    .navigationBar{
+        width: 45%;
+        height: 2%;
+    }
+    #reservationsButton{
+        margin-left: -3px;
+        width: 90%;
+        height: 1px;
+       align-items: center;
+        margin-top: 5px;
+    }
+    #text{
+        display: none;
+    }
+    .lives{
+        display: grid;
+        margin: 0%;
+    }
+    #ankole-logo{
+        width: 200%;
+        position: absolute;
+        top: -100px;
+    }
+    #kitisuru{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1020px) and (min-width: 481px){
+    #fadhileeImage{
+        width: 100%;
+       border: solid 5px lightpink;
+    }
+    #mushroomsImage{
+        width: 80%;
+        border: solid 5px blue;
+    }
+    .navigationBar{
+        margin-top: 0px;
+        margin-left: 70px;
+        position: absolute fixed;
+        width: 40%;
+    }
+    #text{
+        display: none;
+    }
+    body{
+        overflow: scroll;
+    }
+    .live-events-section{
+   flex-direction: column;     
+   color: white;
+    }
+    #tukatikeText{
+       margin-top: 220px;
+        position: relative;
+        font-size: 30px;
+    }
+    .leftsideMenu{
+        display: grid;
+        position: relative;
+        width: 50%;
+        height: 100vh;
+    }
+    .leftLiveSection{
+        margin-left: 0px;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        margin-top: 550px;
+    }
+    .navigationBar{
+        width: 90%;
+        height: 2%;
+        left: -45px;
+    }
+    #reservationsButton{
+        margin-left: -3px;
+        width: 90%;
+        height: 1px;
+       align-items: center;
+        margin-top: 5px;
+    }
+    #text{
+        display: block;
+    }
+    .lives{
+        display: flex;
+        margin: 0%;
+    }
+    #ankole-logo{
+        width: 100%;
+        position: absolute;
+        top: -100px;
+        left: 80%;
+    }
+    #kitisuru{
+        font-size: 40px;
+    }  
+    #tukatikeText{
+        left: 50%;
+        font-weight: bold;
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,173 @@
+
+.fadhile-live{
+    position: relative;
+}
+body{
+    overflow: scroll;
+}
+.navigationBar{
+    position: absolute;
+    top: 80%;
+   left: 28%;
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+    border-radius: 50px;
+   display: flex;
+   gap: 5%;
+   width: 40%;
+   align-items: center;
+   color: white;
+}
+#whatsappIcon{
+    font-size: 30px;
+}
+#liveImage{
+    width: 100%;
+    height: 200vh;
+}
+#reservationsButton:hover{
+    background-color: white;
+    color: black;
+    }
+    #text:hover{
+        color: grey;
+    }
+a{
+        text-decoration: none;
+    }
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+.dropup-content{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    z-index: 1;
+   display: none;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    color: black;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+#text{
+    color: white;
+}
+#text:hover{
+    color: grey;
+}
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+
+}
+#reservationsButton:hover{
+    background-color: white;
+    color: black;
+}
+.whatsappIcon{
+    position: absolute;
+    left: 95%;
+    border: solid 2px white;
+    padding: 15px;
+    background-color: #141313;
+    border-radius: 50%;
+    top: 80%;
+}
+#whatsappIcon{
+    font-size: 20px;
+}
+@media only screen and (max-width: 480px){
+    .dropup-content{
+        background-color: #141313;
+        color: white;
+        margin-left: -80px;
+    }
+   #liveImage{
+      width: 100%;
+      height: 50%;
+   }
+    #reservationsButton{
+        margin-left: -3px;
+        width: 90%;
+        height: 1px;
+       align-items: center;
+        margin-top: 5px;
+    }
+    .navigationBar{
+        width: 50%;
+        left: 20%;
+        margin-top: -15px;
+        height: 3%;
+       }
+       #text{
+        display: none;
+       }
+       .text{
+        background-color: #141313;
+        height: 90%;
+        color: white;
+        font-size: 50px;
+        margin-top: -70px;
+        padding: 50px;
+       }
+       .whatsappIcon{
+        left: 70%;
+       }
+}
+@media only screen and (max-width: 1020px) and (min-width: 481px){
+    .text{
+        background-color: #141313;
+        height: 70%;
+        color: white;
+        font-size: 45px;
+        margin-top: 450px;
+        padding: 50px;
+        left: 1%;
+        width: 68%;
+       }
+       .whatsappIcon{
+        left: 70%;
+        z-index: 1;
+       }
+       .dropup-content{
+        background-color: #141313;
+        color: white;
+        margin-left: -80px;
+    }
+    #liveImage{
+        width: 80%;
+        height: 50%;
+     }
+      #reservationsButton{
+          margin-left: -10px;
+          width: 90%;
+          height: 1px;
+         align-items: center;
+          margin-top: 5px;
+      }
+      .navigationBar{
+          width: 80%;
+          left: 2%;
+          margin-top: -15px;
+          height: 3%;
+          z-index: 1;
+          top: 110%;
+          padding: 1%;
+         }
+       
+}

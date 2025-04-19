@@ -1,0 +1,263 @@
+.locationMenu{
+    display: flex;
+    position: relative;
+}
+.kilimaniText{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: white;
+}
+.kilimani-menu{
+    width: 110%;
+    height: 125%;
+    filter: brightness(50%);
+    margin-left: -80px;
+    color: white;
+}
+#explore{
+    font-size: 15px;
+}
+.socialHandles{
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    left: 93%;
+    top: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#text:hover{
+    color: grey;
+}
+#karibuText{
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+}
+.kitisuru-menu{
+    width: 95%;
+    height: 125%;
+    filter: brightness(50%);
+}
+#linkText{
+    font-size: 60px;
+    margin-top: -25px;
+    margin-left: -30px;
+    margin-bottom: -15px;
+}
+.kitisuruText{
+    position: absolute;
+    top: 50%;
+    font-size: 5px;
+    left: 25%;
+    color: white;
+}
+#karibuText{
+    color: orangered;
+    font-size: 30px;
+}
+.ankoleLogo{
+    position: absolute;
+    top: 10%;
+    left: 46.5%;
+    width: 40%;
+}
+#ankoleLogo{
+    width: 30%;
+}
+.navigationBar{
+   position: absolute;
+    top: 85%;
+   left: 34%;
+   background-color: rgb(37, 36, 36);
+    padding: 10px;
+    border-radius: 50px;
+   display: flex;
+   gap: 5%;
+   width: 37%;
+   align-items: center;
+   color: white;
+}
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+    margin-top: 5px;
+}
+#reservationsButton:hover{
+background-color: white;
+color: black;
+}
+.dropup-content{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    z-index: 1;
+   display: none;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    color: black;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+.whatsappIcon{
+    position: absolute;
+    border: solid 2px grey;
+    padding: 15px;
+    background-color: #141313;
+    border-radius: 50%;
+    left: 95%;
+    top: 90%;
+}
+#whatsappIcon{
+    font-size: 30px;
+}
+#instagramIcon{
+    border-radius: 50%;
+    background-color: #141313;
+    border: solid 2px gray;
+    padding: 10px;
+}
+#facebookIcon{
+    border-radius: 50%;
+    background-color: #141313;
+    border: solid 2px gray;
+    padding: 13px;
+    font-size: 10px;
+    margin-top: -2px;
+}
+@media only screen and (max-width: 820px){
+    .dropup-content{
+        background-color: #141313;
+        color: white;
+        margin-left: -80px;
+    }
+    .locationMenu{
+        display: grid;
+     }
+   .socialHandles{
+    display: grid;
+    margin-left: -70px;
+   }   
+   .kitisuru-menu{
+   width: 140%;
+    height: 400px;
+    margin-left: -10%;
+   } 
+   .navigationBar{
+    width: 50%;
+    left: 20%;
+    margin-top: -15px;
+    height: 5%;
+   }
+   .kilimani-menu{
+    width: 150%;
+    height: 830px;
+    margin-top: -5px;
+   }
+   .kitisuruText{
+    font-size: 10px;
+    left: 30%;
+    z-index: 1;
+   margin-top: -390px;
+   }
+   #text{
+    display: none;
+   }
+   #ankoleLogo{
+    width: 70%;
+    margin-left: -50px;
+   }
+   .kilimaniText{
+    left: 30%;
+    margin-top: -30px;
+    font-size: 10px;
+   }
+   .whatsappIcon{
+    left: 70%;
+    top: 75%;
+   }
+   #reservationsButton{
+    margin-left: -3px;
+    width: 90%;
+    height: 1px;
+   align-items: center;
+    margin-top: 5px;
+}
+
+}
+@media only screen and (max-width: 1020px) and (min-width: 481px){
+    .dropup-content{
+        background-color: #141313;
+        color: white;
+        margin-left: -80px;
+    }
+    .locationMenu{
+        display: grid;
+     }
+   .socialHandles{
+    display: grid;
+    margin-left: -70px;
+   }   
+   .kitisuru-menu{
+   width: 140%;
+    height: 400px;
+    margin-left: -10%;
+   } 
+   .navigationBar{
+    width: 100%;
+    left: 0%;
+    margin-top: 30%;
+    height: 5%;
+   }
+   .kilimani-menu{
+    width: 150%;
+    height: 830px;
+    margin-top: -5px;
+   }
+   .kitisuruText{
+    font-size: 10px;
+    left: 30%;
+    z-index: 1;
+   margin-top: -390px;
+   }
+   #ankoleLogo{
+    width: 70%;
+    margin-left: -50px;
+   }
+   #text{
+    display: block;
+   }
+   body{
+    overflow: hidden;
+   }
+   .kilimaniText{
+    left: 30%;
+    margin-top: -30px;
+    font-size: 10px;
+   }
+   .whatsappIcon{
+    left: 90%;
+    top: 110%;
+   }
+   #reservationsButton{
+    margin-left: -3px;
+    width: 90%;
+    height: 1px;
+   align-items: center;
+    margin-top: 5px;
+}
+
+}
+

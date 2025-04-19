@@ -1,0 +1,196 @@
+.reviewsSection{
+    width: 100%;
+    height: 100vh;
+    /* height: 835px; */
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.ankoleLogoReviews{
+    width: 20%;
+    margin-left: 850px;
+}
+#reviewText{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#ankoleLogo{
+    width: 50%;
+    height: 50%;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+.navigationBarReviews{
+    position: absolute;
+    top: 80%;
+   left: 30%;
+    background-color: rgb(37, 36, 36);
+    padding: 15px;
+    border-radius: 50px;
+   display: flex;
+   gap: 5%;
+   width: 35%;
+   align-items: center;
+   color: white;
+}
+#reservationsButton{
+    border-radius: 30px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    margin-top: -10px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+#reservationsButton:hover{
+background-color: white;
+color: black;
+}
+.dropup{
+    display: inline-block;
+    position: relative;
+}
+.dropup-content{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    z-index: 1;
+   display: none;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    color: black;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+.whatsappIconReviews{
+    margin-top: 25%;
+    margin-left: 95%;
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 2px grey;
+    width: 30px;
+    height: 30px;
+}
+.socialHandlesReviews{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    left: 93%;
+    top: 5%;
+}
+.forwardArrow{
+    margin-top: -350px;
+    margin-left: 500px;
+    gap: 60%;
+    font-size: 30px;
+    display: flex;
+}
+#instagramIcon{
+    border-radius: 50%;
+    background-color: #141313;
+    border: solid 2px grey;
+    padding: 10px;
+}
+#whatsappIcon{
+    font-size: 30px;
+    margin-left: 3px;
+}
+#facebookIcon{
+    border-radius: 50%;
+    background-color: #141313;
+    border: solid 2px grey;
+    padding: 14px;
+    font-size: 9px;
+}
+#quotationRight{
+    margin-top: -200px;
+    font-size: 30px;
+    margin-left: 500px;
+}
+#quotationLeft{
+    margin-top: 300px;
+    margin-left: 1370px;
+    font-size: 30px;
+}
+.customerReviews{
+    margin-left: 10px;
+    margin-top: -210px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 840px){
+    .dropup-content{
+        background-color: #141313;
+        color: white;
+        margin-left: -80px;
+    }
+    .socialHandlesReviews{
+        display: grid;
+        margin-left: -95px;
+    }
+    .whatsappIconReviews{
+        margin-left: 85%;
+       margin-top: 500px;
+     }
+     .customerReviews{
+        font-size: 10px;
+        position: fixed;
+        margin-left: 50px;
+    }
+    .ankoleLogoReviews{
+        width: 100%;
+        justify-self: center;
+    }
+    .ankoleLogoReviews{
+        margin-left: 160px;
+    }
+ 
+    .navigationBarReviews{
+        width: 45%;
+        height: 3%;
+        left: 10%;
+    }
+    #text{
+        display: none;
+    }
+    #reservationsButton{
+        width: 90%;
+        height: 2%;
+    }
+    .whatsappIconReviews{
+       margin-left: 80%;
+       margin-top: 410px;
+    }
+    .forwardArrow{
+        margin-left: 40px;
+        font-size: 10px;
+        gap:90%;
+    }
+    #quotationRight{
+        margin-left: 20%;
+        font-size: 10px;
+    }
+    #quotationLeft{
+        margin-left: 90%;
+        font-size: 10px;
+    }
+    .reviewsSection{
+        margin-left: -50px;
+    }
+    #reservationsButton{
+        margin-left: -3px;
+        width: 90%;
+        height: 1px;
+       align-items: center;
+        margin-top: 5px;
+    }
+}
